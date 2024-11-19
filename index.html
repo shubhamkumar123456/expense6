@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <div onclick="changeColor()" class="abc">
+
+    </div>
+
+    <script>
+        let div = document.querySelector('div')
+        function changeColor(){
+            div.style.backgroundColor = 'red'
+        }
+
+        let arr = [
+            {
+                id:1,
+                name:"abc"
+            },
+            {
+                id:2,
+                name:"two"
+            }
+        ]
+
+        let value = {id:2,name:"two"}
+        let index = arr.findIndex((ele)=>ele.id=== value.id)
+        console.log(index)
+        arr[index] = 'sb bdhiya'
+        console.log(arr)
+    
+    </script>
+</body>
+</html>

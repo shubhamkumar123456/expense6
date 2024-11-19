@@ -1,0 +1,49 @@
+.formpage{
+  /* background-color: aqua; */
+}
+
+
+.title{
+  text-align: center;
+}
+
+.table {
+  width:80%;
+  margin: auto;
+}
+tr, td ,th{
+  text-align: center;
+}
+
+.expenseForm{
+  margin: auto;
+  width: max-content;
+  display: flex;
+  gap: 10px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.btnClose{
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+}
+
+.expenseForm input{
+  padding:5px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.expenseForm button{
+  background-color: skyblue;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+}
